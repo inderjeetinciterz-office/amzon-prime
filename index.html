@@ -1,0 +1,788 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jio Hotstar Clone</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Montserrat:wght@600&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css" />
+
+</head>
+<body style="background-color: black;">
+    <!-- left side navigation -->
+    <main>
+    <aside class="navigation" style=" background:rgba(0, 0, 0, 0.281); filter: brightness(10px);">
+    <div class="logo">
+      <img class="logo-img" width="100vh" src="WhatsApp_Image_2025-09-17_at_3.23.19_PM-removebg-preview.png" alt="logo" />
+    </div>
+    <nav class="nav">
+      <ul class="nav-links" style="filter: brightness(1px);">
+      <li class="nav-link">
+        <a href="#" class="sidebar-icon" data-label="Home">
+          <i class="fa-solid fa-house icone"></i>
+        </a>
+      </li>
+        <li class="nav-link">
+          <a href="#" class="sidebar-icon" data-label="Search">
+            <i class="fa-solid fa-magnifying-glass icone"></i>
+          </a>
+        </li>
+        <li class="nav-link">
+          <a href="#" class="sidebar-icon" data-label="TV Shows">
+            <i class="fa-solid fa-tv icone"></i>
+          </a>
+        </li>
+        <li class="nav-link">
+          <a href="#" class="sidebar-icon" data-label="Movies">
+            <i class="fa-solid fa-ticket icone"></i>
+          </a>
+        </li>
+        <li class="nav-link">
+          <a href="#" class="sidebar-icon" data-label="Sports">
+            <i class="fa-solid fa-volleyball icone"></i>
+          </a>
+        <li class="nav-link">
+          <a href="#" class="sidebar-icon" data-label="category">
+            <i class="fa-solid fa-layer-group icone"></i>
+          </a>
+        <li class="nav-link">
+          <a href="#" class="sidebar-icon" data-label="My-space">
+            <i class="fa-solid fa-circle-user icone"></i>
+          </a>
+        </li>
+      </ul>
+    </nav>
+</aside>
+
+      <!-- right side content -->
+      <div class="main-page">
+        <section class="banner">
+          <div class="banner-overlay-1"></div>
+          <div class="banner-overlay-2"><img src="biggboss.jpeg" alt="banner" /></div>
+        </section>
+        <section class="main-area">
+          <section class="banner-movie-detail">
+            <div class="div-para">
+              <p class="new-para">New Season</p>
+            </div>
+            <div class="detail">
+              <img src="1758045970824-t.png" alt="title" class="title-img"  />
+              <div class="movie-detail">
+                <p>2025 U/A 16+ Hindi</p>
+                <p><span class="dot"></span></p>
+                <p>19 Season</p>
+                <p><span class="dot"></span></p>
+                <p>7 Languages</p>
+              </div>
+              <p class="movie-info">
+                A single misplaced word could mean death, and a new bride finds
+                herself in such a situation in a conflict ridden land. Who will
+                save her?
+              </p>
+              <div class="para">
+                <p>Reality</p>
+                <p><span class="bar"></span></p>
+                <p>Competition</p>
+                <p><span class="bar"></span></p>
+                <p>Games</p>
+                <p><span class="bar"></span></p>
+                <p>Friendship</p>
+              </div>
+              <div class="bt">
+                <button class="bt1">
+                  <i class="fa-solid fa-play"></i> Watch Now </button> <span><i class="fa-solid fa-plus clr"></i></span>
+              </div>
+            </div>
+            <div class="one">
+              <div class="nav-left">
+              <i class="fa-solid fa-angle-left"></i>
+              </div>
+              <img src="https://m.media-amazon.com/images/I/71-R9eJhgGL._UF894,1000_QL80_.jpg" alt="elio-poster" class="side-logo">
+              <img src="https://sporterra.in/wp-content/uploads/2025/08/photo_2025-08-19_20-58-37-e1755617758940.jpg" alt="india-team" class="side-logo">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTo1hPgsL2tS7jKlcwLpC7A9l01u5awENChWA&s" alt="sun-gun" class="side-logo">
+              <img src="https://m.media-amazon.com/images/I/71-R9eJhgGL._UF894,1000_QL80_.jpg" alt="elio-poster" class="side-logo">
+              <div class="nav-right">
+              <i class="fa-solid fa-angle-right"></i>
+              </div>
+            </div>
+          </section>
+
+          <!-- movies section -1 -->
+          <section class="movies-section">
+            <div class="movies-header">
+              <p class="section-title">Latest Movies</p>
+              <p class="va">
+                View All <i class="fa-solid fa-greater-than"></i>
+              </p>
+            </div>
+            <div class="movies">
+              <div class="swiper-left" id="sleft">
+                <i class="fa-solid fa-angle-left"></i>
+              </div>
+              <div class="swiper-right" id="sright">
+                <i class="fa-solid fa-angle-right"></i>
+              </div>
+              <div class="slider" id="slider">
+                <div class="movie">
+                  <img
+                    src="./images/mov-12.webp"
+                    alt="movie"
+                    class="movie-img"
+                  />
+                </div>
+                <div class="movie">
+                  <img
+                    src="./images/mov-13.webp"
+                    alt="movie"
+                    class="movie-img"
+                  />
+                </div>
+                <div class="movie">
+                  <!-- <div class="movie-img-wrapper"> -->
+                  <img
+                    src="./images/mov-4.webp"
+                    alt="movie"
+                    class="movie-img"/>
+                </div>
+                <div class="movie">
+                  <img
+                    src="./images/mov-15.webp"
+                    alt="movie"
+                    class="movie-img"
+                  />
+                </div>
+                <div class="movie">
+                  <img
+                    src="./images/mov-16.webp"
+                    alt="movie"
+                    class="movie-img"
+                  />
+                </div>
+                <div class="movie">
+                  <img
+                    src="./images/mov-17.webp"
+                    alt="movie"
+                    class="movie-img"
+                  />
+                </div>
+                <div class="movie">
+                  <img
+                    src="./images/mov-2.webp"
+                    alt="movie"
+                    class="movie-img"
+                  />
+                </div>
+                <div class="movie">
+                  <img
+                    src="./images/mov-3.webp"
+                    alt="movie"
+                    class="movie-img"
+                  />
+                </div>
+                <div class="movie">
+                  <img
+                    src="./images/mov-4.webp"
+                    alt="movie"
+                    class="movie-img"
+                  />
+                </div>
+                <div class="movie">
+                  <img
+                    src="./images/mov-5.webp"
+                    alt="movie"
+                    class="movie-img"
+                  />
+                </div>
+                <div class="movie">
+                  <img
+                    src="./images/mov-6.webp"
+                    alt="movie"
+                    class="movie-img"
+                  />
+                </div>
+                <div class="movie">
+                  <img
+                    src="./images/mov-7.webp"
+                    alt="movie"
+                    class="movie-img"
+                  />
+                </div>
+                <div class="movie">
+                  <img
+                    src="./images/mov-8.webp"
+                    alt="movie"
+                    class="movie-img"
+                  />
+                </div>
+                <div class="movie">
+                  <img
+                    src="./images/mov-9.webp"
+                    alt="movie"
+                    class="movie-img"
+                  />
+                </div>
+                <div class="movie">
+                  <img
+                    src="./images/mov-10.webp"
+                    alt="movie"
+                    class="movie-img"
+                  />
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- movies section 2 -->
+          <section class="movies-section">
+            <div class="movies-header">
+              <p class="section-title">HotStar Specials</p>
+              <p class="va">
+                View All <i class="fa-solid fa-greater-than"></i>
+              </p>
+            </div>
+            <div class="movies">
+              <div class="swiper-left" id="sleft">
+                <i class="fa-solid fa-angle-left"></i>
+              </div>
+              <div class="swiper-right" id="sright">
+                <i class="fa-solid fa-angle-right"></i>
+              </div>
+              <div class="slider" id="slider">
+                <div class="movie">
+                  <img
+                    src="./images/mov-12.webp"
+                    alt="movie"
+                    class="movie-img"
+                  />
+                </div>
+                <div class="movie">
+                  <img
+                    src="./images/mov-13.webp"
+                    alt="movie"
+                    class="movie-img"
+                  />
+                </div>
+                <div class="movie">
+                  <img
+                    src="./images/mov-14.webp"
+                    alt="movie"
+                    class="movie-img"
+                  />
+                </div>
+                <div class="movie">
+                  <img
+                    src="./images/mov-15.webp"
+                    alt="movie"
+                    class="movie-img"
+                  />
+                </div>
+                <div class="movie">
+                  <img
+                    src="./images/mov-16.webp"
+                    alt="movie"
+                    class="movie-img"
+                  />
+                </div>
+                <div class="movie">
+                  <img
+                    src="./images/mov-17.webp"
+                    alt="movie"
+                    class="movie-img"
+                  />
+                </div>
+                <div class="movie">
+                  <img
+                    src="./images/mov-2.webp"
+                    alt="movie"
+                    class="movie-img"
+                  />
+                </div>
+                <div class="movie">
+                  <img
+                    src="./images/mov-3.webp"
+                    alt="movie"
+                    class="movie-img"
+                  />
+                </div>
+                <div class="movie">
+                  <img
+                    src="./images/mov-4.webp"
+                    alt="movie"
+                    class="movie-img"
+                  />
+                </div>
+                <div class="movie">
+                  <img
+                    src="./images/mov-5.webp"
+                    alt="movie"
+                    class="movie-img"
+                  />
+                </div>
+                <div class="movie">
+                  <img
+                    src="./images/mov-6.webp"
+                    alt="movie"
+                    class="movie-img"
+                  />
+                </div>
+                <div class="movie">
+                  <img
+                    src="./images/mov-7.webp"
+                    alt="movie"
+                    class="movie-img"
+                  />
+                </div>
+                <div class="movie">
+                  <img
+                    src="./images/mov-8.webp"
+                    alt="movie"
+                    class="movie-img"
+                  />
+                </div>
+                <div class="movie">
+                  <img
+                    src="./images/mov-9.webp"
+                    alt="movie"
+                    class="movie-img"
+                  />
+                </div>
+                <div class="movie">
+                  <img
+                    src="./images/mov-10.webp"
+                    alt="movie"
+                    class="movie-img"
+                  />
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- top 10 moives in INDIA -->
+          <section class="movies-section-top">
+            <div class="movies-header">
+              <p class="section-title">Top 10 Movies in India</p>
+              <p class="va">
+                View All <i class="fa-solid fa-greater-than"></i>
+              </p>
+            </div>
+            <div class="movies">
+              <div class="swiper-left" id="sleft">
+                <i class="fa-solid fa-angle-left"></i>
+              </div>
+              <div class="swiper-right" id="sright">
+                <i class="fa-solid fa-angle-right"></i>
+              </div>
+              <div class="slider" id="slider">
+                <div class="movie">
+                  <img class="top" src="./images/top-1.png" alt="">
+                  <img
+                    src="./images/mov-12.webp"
+                    alt="movie"
+                    class="movie-img"
+                  />
+                </div>
+                <div class="movie">
+                  <img class="top" src="./images/top-2.png" alt="">
+                  <img
+                    src="./images/mov-13.webp"
+                    alt="movie"
+                    class="movie-img"
+                  />
+                </div>
+                <div class="movie">
+                  <img class="top" src="./images/top-3.png" alt="">
+                  <img
+                    src="./images/mov-14.webp"
+                    alt="movie"
+                    class="movie-img"
+                  />
+                </div>
+                <div class="movie">
+                  <img class="top" src="./images/top-4.png" alt="">
+                  <img
+                    src="./images/mov-15.webp"
+                    alt="movie"
+                    class="movie-img"
+                  />
+                </div>
+                <div class="movie">
+                  <img class="top" src="./images/top-5.png" alt="">
+                  <img
+                    src="./images/mov-16.webp"
+                    alt="movie"
+                    class="movie-img"
+                  />
+                </div>
+                <div class="movie">
+                  <img class="top" src="./images/top-6.png" alt="">
+                  <img
+                    src="./images/mov-17.webp"
+                    alt="movie"
+                    class="movie-img"
+                  />
+                </div>
+                <div class="movie">
+                  <img class="top" src="./images/top-7.png" alt="">
+                  <img
+                    src="./images/mov-2.webp"
+                    alt="movie"
+                    class="movie-img"
+                  />
+                </div>
+                <div class="movie">
+                  <img class="top" src="./images/top-8.png" alt="">
+                  <img
+                    src="./images/mov-3.webp"
+                    alt="movie"
+                    class="movie-img"
+                  />
+                </div>
+                <div class="movie">
+                  <img class="top" src="./images/top-9.png" alt="">
+                  <img
+                    src="./images/mov-4.webp"
+                    alt="movie"
+                    class="movie-img"
+                  />
+                </div>
+                <div class="movie">
+                  <img class="top" src="./images/top-10.png" alt="">
+                  <img
+                    src="./images/mov-5.webp"
+                    alt="movie"
+                    class="movie-img"
+                  />
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- best in sports -->
+          <section class="sports">
+            <div class="swiper-left" id="sleft">
+              <i class="fa-solid fa-angle-left"></i>
+            </div>
+            <div class="swiper-right" id="sright">
+              <i class="fa-solid fa-angle-right"></i>
+            </div>
+            <div class="slider">
+              <div class="sport">
+                <div class="sport-img">
+                  <img src="./images/sports-1.webp" alt="">
+                  <i class="fa-solid fa-play"></i>
+                </div>
+                <p class="sports-title">
+                  Sharma and his team and done it once again!!
+                </p>
+                <p class="sport-desc">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos quasi ea debitis repellat modi excepturi minus dolores a ducimus voluptatum.
+                </p>
+              </div>
+              <div class="sport">
+                <div class="sport-img">
+                  <img src="./images/sports-2.webp" alt="">
+                  <i class="fa-solid fa-play"></i>
+                </div>
+                <p class="sports-title">
+                  Sharma and his team and done it once again!!
+                </p>
+                <p class="sport-desc">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos quasi ea debitis repellat modi excepturi minus dolores a ducimus voluptatum.
+                </p>
+              </div>
+              <div class="sport">
+                <div class="sport-img">
+                  <img src="./images/sports-3.webp" alt="">
+                  <i class="fa-solid fa-play"></i>
+                </div>
+                <p class="sports-title">
+                  Sharma and his team and done it once again!!
+                </p>
+                <p class="sport-desc">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos quasi ea debitis repellat modi excepturi minus dolores a ducimus voluptatum.
+                </p>
+              </div>
+              <div class="sport">
+                <div class="sport-img">
+                  <img src="./images/sports-1.webp" alt="">
+                  <i class="fa-solid fa-play"></i>
+                </div>
+                <p class="sports-title">
+                  Sharma and his team and done it once again!!
+                </p>
+                <p class="sport-desc">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos quasi ea debitis repellat modi excepturi minus dolores a ducimus voluptatum.
+                </p>
+              </div>
+            </div>
+          </section>
+          <section class="movie-channels">
+            <div class="channel-heading">
+              <p class="heading">Studios</p>
+            </div>
+            <div class="main-channels">
+              <div class="channel">
+                <img class="channel-img" src="./images/br-1.webp" alt="">
+              </div>
+              <div class="channel">
+                <img class="channel-img" src="./images/br-2.webp" alt="">
+              </div>
+              <div class="channel">
+                <img class="channel-img" src="./images/br-3.webp" alt="">
+              </div>
+              <div class="channel">
+                <img class="channel-img" src="./images/br-4.webp" alt="">
+              </div>
+              <div class="channel">
+                <img class="channel-img" src="./images/br-5.webp" alt="">
+              </div>
+              <div class="channel">
+                <img class="channel-img" src="./images/br-6.webp" alt="">
+              </div>
+
+
+            </div>
+          </section>
+          <section class="languages">
+            <div class="swiper-left" id="sleft">
+              <i class="fa-solid fa-angle-left"></i>
+            </div>
+            <div class="swiper-right" id="sright">
+              <i class="fa-solid fa-angle-right"></i>
+            </div>
+            <div class="lang-title">
+              Popular Languages
+            </div>
+            <div class="slider">
+              <div class="language">
+                <img src="./images/lang-1.webp" alt="">
+              </div>
+              <div class="language">
+                <img src="./images/lang-2.webp" alt="">
+              </div>
+              <div class="language">
+                <img src="./images/lang-3.webp" alt="">
+              </div>
+              <div class="language">
+                <img src="./images/lang-4.webp" alt="">
+              </div>
+              <div class="language">
+                <img src="./images/lang-5.webp" alt="">
+              </div>
+              <div class="language">
+                <img src="./images/lang-6.webp" alt="">
+              </div>
+              
+            </div>
+          </section>
+          <section class="genres">
+            <div class="swiper-left" id="sleft">
+              <i class="fa-solid fa-angle-left"></i>
+            </div>
+            <div class="swiper-right" id="sright">
+              <i class="fa-solid fa-angle-right"></i>
+            </div>
+            <div class="genre-title">
+              Popular Genres
+            </div>
+            <div class="slider">
+              <div class="genre">
+                <img src="./images/gen-1.webp" alt="">
+              </div>
+              <div class="genre">
+                <img src="./images/gen-2.webp" alt="">
+              </div>
+              <div class="genre">
+                <img src="./images/gen-3.webp" alt="">
+              </div>
+              <div class="genre">
+                <img src="./images/gen-4.webp" alt="">
+              </div>
+              <div class="genre">
+                <img src="./images/gen-5.webp" alt="">
+              </div>
+              <div class="genre">
+                <img src="./images/gen-6.webp" alt="">
+              </div>
+            </div>
+          </section>
+          <!-- movies section -3 -->
+          <section class="movies-section">
+            <div class="movies-header">
+              <p class="section-title">WatchList</p>
+              <p class="va">
+                View All <i class="fa-solid fa-greater-than"></i>
+              </p>
+            </div>
+            <div class="movies">
+              <div class="swiper-left" id="sleft">
+                <i class="fa-solid fa-angle-left"></i>
+              </div>
+              <div class="swiper-right" id="sright">
+                <i class="fa-solid fa-angle-right"></i>
+              </div>
+              <div class="slider" id="slider">
+                <div class="movie">
+                  <img
+                    src="./images/mov-12.webp"
+                    alt="movie"
+                    class="movie-img"
+                  />
+                </div>
+                <div class="movie">
+                  <img
+                    src="./images/mov-13.webp"
+                    alt="movie"
+                    class="movie-img"
+                  />
+                </div>
+                <div class="movie">
+                  <img
+                    src="./images/mov-14.webp"
+                    alt="movie"
+                    class="movie-img"
+                  />
+                </div>
+                <div class="movie">
+                  <img
+                    src="./images/mov-15.webp"
+                    alt="movie"
+                    class="movie-img"
+                  />
+                </div>
+                <div class="movie">
+                  <img
+                    src="./images/mov-16.webp"
+                    alt="movie"
+                    class="movie-img"
+                  />
+                </div>
+                <div class="movie">
+                  <img
+                    src="./images/mov-17.webp"
+                    alt="movie"
+                    class="movie-img"
+                  />
+                </div>
+                <div class="movie">
+                  <img
+                    src="./images/mov-2.webp"
+                    alt="movie"
+                    class="movie-img"
+                  />
+                </div>
+                <div class="movie">
+                  <img
+                    src="./images/mov-3.webp"
+                    alt="movie"
+                    class="movie-img"
+                  />
+                </div>
+                <div class="movie">
+                  <img
+                    src="./images/mov-4.webp"
+                    alt="movie"
+                    class="movie-img"
+                  />
+                </div>
+                <div class="movie">
+                  <img
+                    src="./images/mov-5.webp"
+                    alt="movie"
+                    class="movie-img"
+                  />
+                </div>
+                <div class="movie">
+                  <img
+                    src="./images/mov-6.webp"
+                    alt="movie"
+                    class="movie-img"
+                  />
+                </div>
+                <div class="movie">
+                  <img
+                    src="./images/mov-7.webp"
+                    alt="movie"
+                    class="movie-img"
+                  />
+                </div>
+                <div class="movie">
+                  <img
+                    src="./images/mov-8.webp"
+                    alt="movie"
+                    class="movie-img"
+                  />
+                </div>
+                <div class="movie">
+                  <img
+                    src="./images/mov-9.webp"
+                    alt="movie"
+                    class="movie-img"
+                  />
+                </div>
+                <div class="movie">
+                  <img
+                    src="./images/mov-10.webp"
+                    alt="movie"
+                    class="movie-img"
+                  />
+                </div>
+              </div>
+            </div>
+          </section>
+
+        <footer>
+          <div class="footer">
+              <div class="footer-content">
+                <h5>Company</h5>
+                <div class="inner-footer">
+                  <p>About</p>
+                  <p>Carees</p>
+                </div>
+              </div>
+
+            <div class="footer-content">
+              <h5>View Website in</h5>
+              <div class="inner-footer">
+                <p><i class="fa-solid fa-check"></i><span> English</span></p>
+              </div>
+            </div>
+
+            <div class="footer-content">
+              <h5>Need Help ?</h5>
+              <div class="inner-footer">
+                <p>Visit Help Center</p>
+                <p>Share Feedback</p>
+              </div>
+            </div>
+
+            <div class="footer-content-logo">
+              <h5>Connect With us</h5>
+              <div class="inner-footer">
+                <i class="fa-brands fa-facebook" style="font-size: 25px;"></i>
+                <i class="fa-solid fa-x" style="font-size: 25px;"></i> 
+              </div>
+            </div>
+          </div>
+
+          <div class="logo-end">
+            <div class="end-para">
+              <p><span>@</span> STAR. All Rights Reserved.</p>
+              <p>Teams Of Use   Private    Policy   FAQ</p>
+            </div>
+            
+            <div id="final-logo">
+              <img src="png-clipart-app-store-google-play-apple-apple-text-logo-removebg-preview.png" alt="Google" height="80px" width="100px">
+            </div>
+          </div>
+    </footer>
+        </section>
+      </div>
+    </main>
+    
+  </body>
+</html>
