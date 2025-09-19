@@ -1,1 +1,1 @@
-# amzon-prime
+# hotstar-prime
